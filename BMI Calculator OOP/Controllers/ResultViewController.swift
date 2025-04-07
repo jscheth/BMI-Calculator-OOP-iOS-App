@@ -21,7 +21,8 @@ class ResultViewController: UIViewController {
 
         resultLabel.text = bmiValue
         adviceLabel.text = advice
-        view.backgroundColor = color
+        //change color if no background image
+        //view.backgroundColor = color
     }
     
     @IBAction func recalculatePressed(_ sender: UIButton) {
